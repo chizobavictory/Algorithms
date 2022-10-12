@@ -10,7 +10,7 @@ function maxChar(str){
       // increment the character's value if the character existed in the map
       charMap[char]++;
     } else {
-      // Otherwise, the value of the character will be increamented by 1
+      // Otherwise, the value of the character will be incremented by 1
       charMap[char] = 1;
     }
   }
@@ -28,3 +28,4 @@ function maxChar(str){
 }
  
 console.log(maxChar("yelllo"));
+
