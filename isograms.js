@@ -9,3 +9,4 @@ function isIsogram(str) {
   return newStrLength === str.length;
 
 }
+console.log(isIsogram('abc'));
